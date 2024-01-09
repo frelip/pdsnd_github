@@ -3,7 +3,7 @@
 """
 **** Exploring US Bikeshare Data - Practical Project - UDACITY
 
-Created on Jan 5, 2024 
+Created on Jan 5, 2024 - updated on Jan 9
 
 @author: Frederik Lipowsky
 """
