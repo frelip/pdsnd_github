@@ -250,7 +250,7 @@ def main():
         
         # Ask for raw data view - call function
         while True:
-            raw_data = input('Would you like to query the first 5 rows of raw data? Enter yes or no.\n').lower()
+            raw_data = input('Would you like to query the first 5 rows of raw data? Please Enter yes or no.\n').lower()
             if raw_data == 'no':
                 break
             elif raw_data == 'yes':
