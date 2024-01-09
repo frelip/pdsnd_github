@@ -28,7 +28,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input('Choose the city you want to analyze (Chicago, New York City, Washington)\n').lower()
+        city = input('Please Choose the city you want to analyze (Chicago, New York City, Washington)\n').lower()
         if city in CITY_DATA:
             break
         else:
@@ -250,14 +250,14 @@ def main():
         
         # Ask for raw data view - call function
         while True:
-            raw_data = input('Would you like to query the first 5 rows of raw data? Enter yes or no.\n').lower()
+            raw_data = input('Would you like to query the first 5 rows of raw data? Please Enter yes or no.\n').lower()
             if raw_data == 'no':
                 break
             elif raw_data == 'yes':
                 show_raw_data(df)
                 break
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Please Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
