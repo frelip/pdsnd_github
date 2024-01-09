@@ -1,17 +1,22 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Created and bulished to github on January 9, 2024
 
-### Project Title
-Replace the Project Title that has been used
+### pdsnd_github
+The project title for the Bike Share analysis tool
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare is data analysis tool that was built with Python as part of the Udacity Data Science course. The tool analyzes bike share data based on a given user input.
 
 ### Files used
-Include the files used for your project
+The project used the following files:
+* bikeshare.py - Main program including  the bikeshare data analysis tool
+* README.md - Project description and meta information
+* .gitignore - maintained the exclusions for GIT
+
+The bikeshare.py works with three data sets:
+* washington.csv - Bikeshare data for the city of Washington
+* new_york_city.csv - Bikeshare data for the city of New York City
+* chicago.csv - Bikeshare data for the city of Chicago
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits go to the Udacity team! Without their prework, the Bikeshare project would not be where it is.
